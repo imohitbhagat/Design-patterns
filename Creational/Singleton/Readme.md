@@ -11,6 +11,7 @@ In other words, a class must ensure that only single instance should be created 
 **There are two forms of singleton design pattern**
 
 **Early Instantiation**: creation of instance at load time.
+
 **Lazy Instantiation**: creation of instance when required.
 
 **Advantage of Singleton design pattern**
@@ -22,5 +23,7 @@ Singleton pattern is mostly used in multi-threaded and database applications. It
 **How to create Singleton design pattern?**
 
 **Static member**: It gets memory only once because of static, itcontains the instance of the Singleton class.
+
 **Private constructor**: It will prevent to instantiate the Singleton class from outside the class.
+
 **Static factory method**: This provides the global point of access to the Singleton object and returns the instance to the caller.
